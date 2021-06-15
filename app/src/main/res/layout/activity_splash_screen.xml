@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="match_parent"
+    tools:context=".Views.SplashScreen">
+
+
+
+
+    <ImageView
+        android:id="@+id/splash_image"
+        android:layout_width="match_parent"
+        android:layout_height="286dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/pank"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="200dp"
+        app:layout_constraintRight_toRightOf="parent">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/splash_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nosifer"
+        android:text="Angel_Flix"
+        android:textAlignment="center"
+        android:textColor="#BC0D0D"
+        android:textDirection="firstStrong"
+        android:textSize="40dp"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/splash_image"></TextView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
